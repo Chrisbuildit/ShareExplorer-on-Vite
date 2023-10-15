@@ -17,11 +17,13 @@
 /*  background-color: black;*/
 /*}*/
 
-/*.inner-container {*/
-/*  display: flex;*/
-/*  flex-direction: column;*/
-/*  flex-basis: 1200px;*/
-/*  padding-inline: 2em;*/
+.inner-container {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 1200px;
+  /*padding-inline: 1em;*/
+  align-items: center;
+}
 
 /*  !* Developer mode *!*/
 /*  background-color: darkblue;*/

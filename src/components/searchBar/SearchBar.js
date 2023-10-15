@@ -122,17 +122,17 @@ const customStyles = {
         ...provided,
         background: '#fff',
         borderColor: '#9e9e9e',
-        minWidth: '300px',
+        // maxWidth: '200px',
         minHeight: '30px',
         height: '30px',
         boxShadow: state.isFocused ? null : null,
-        whiteSpace: 'nowrap',
+        // whiteSpace: 'nowrap',
     }),
 
     valueContainer: (provided, state) => ({
         ...provided,
         height: '30px',
-        padding: '0 6px'
+        padding: '0 -10px',
     }),
 
     input: (provided, state) => ({

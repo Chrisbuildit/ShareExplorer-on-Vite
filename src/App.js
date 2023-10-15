@@ -20,15 +20,17 @@ function App() {
         <QueryClientProvider client={queryClient}>
             <>
                 <NavBar />
-                <Routes>
-                        <Route path="/" element={ <Home /> }/>
-                        <Route path="/searchResults/:companyId" element={ <SearchResults /> }/>
-                        <Route path="/company-details/:date" element={ <CompanyDetails /> }/>
-                        <Route path="/profile" element={ <Profile /> }/>
-                        <Route path="/signUp" element={ <SignUp/> }/>
-                        <Route path="/signIn" element={ <SignIn/> }/>
-                        <Route path="/searchPage" element={ <SearchPage/> }/>
-                </Routes>
+                <main>
+                    <Routes>
+                            <Route path="/" element={ <Home /> }/>
+                            <Route path="/searchResults/:companyId" element={ <SearchResults /> }/>
+                            <Route path="/company-details/:date" element={ <CompanyDetails /> }/>
+                            <Route path="/profile" element={ <Profile /> }/>
+                            <Route path="/signUp" element={ <SignUp/> }/>
+                            <Route path="/signIn" element={ <SignIn/> }/>
+                            <Route path="/searchPage" element={ <SearchPage/> }/>
+                    </Routes>
+                </main>
             </>
         </QueryClientProvider>
     )
