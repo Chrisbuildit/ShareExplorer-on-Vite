@@ -2,34 +2,44 @@
 .navbar {
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content:space-between;
     align-items: center;
     position: fixed;
     height: 50px;
     width: 100vw;
     top: 0;
     left: 0;
-    /*padding-right: 33px;*/
     background-color: rgb(22, 24, 6);
 }
 
 .navbar nav {
     display: flex;
     flex-direction: row;
-    /*justify-content: space-between;*/
-    /*align-items: center;*/
+    /* 1% for the scrollbar*/
+    flex-basis: 99%;
+    position: relative;
+    justify-content: space-between;
+    padding-inline: 2em;
+    left: 0;
+    width: 100%;
+    /* width: fit-content; No effect*/
+    align-items: center;
+    /* border: 1px solid black; */
 }
 
-/*.pre-menu {*/
-/*    display: flex;*/
-/*    flex-direction: row;*/
-/*    gap: 1.5em;*/
-/*}*/
+/*Not defined as it has no effect*/
+/* .searchbar {
+} */
+
+.pre-menu {
+    padding-right: 1em;
+}
 
 .menu {
     display: flex;
     flex-direction: row;
-    gap: 2em;
+    gap: 1em;
+    padding-left: 1em;
 }
 
 .navbar li {
@@ -39,10 +49,12 @@
 .navbar a {
     color: white;
     font-size: 1em;
+    font-weight: 600;
 }
 
 .homepage {
     text-decoration: none;
+    white-space: nowrap;
 }
 
 .link--default {
@@ -57,19 +69,34 @@
     text-underline-offset: 5px;
 }
 
+.toggle-menu,
+.mobile-homepage {
+    display: none;
+}
+
 @media screen and (max-width: 767px) {
     .menu,
     .homepage {
         display: none;
     }
 
-    .toggle-menu,
-    .mobile-homepage {
-        display: block;
+    .toggle-menu {
+        display: flex;
         color: white;
         background-color: transparent;
         border: none;
         cursor: pointer;
+        padding-left: calc(100vw/6);
+        padding-right: 0;
+    }
+
+    .mobile-homepage {
+        display: flex;
+        color: white;
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        padding-right: calc(100vw/6);
     }
 
     .mobile-menu {
@@ -88,4 +115,7 @@
     .mobile-menu li {
         list-style-type: none;
     }
+
+    /* .material-symbols-outlined {
+            } */
 }

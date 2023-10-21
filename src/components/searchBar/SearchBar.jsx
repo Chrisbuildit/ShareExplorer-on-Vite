@@ -5,7 +5,8 @@ import Select from 'react-select'
 import OtcStocks from './data/data.json';
 import {useQuery} from '@tanstack/react-query'
 import axios from "axios";
-
+import { AuthContext } from '../../context/AuthContext';
+import useScreenSize from '../../helpers/ScreenWidthListener';
 
 const fetchData = async (query) => {
         console.log("FETCHING RESULTS");
@@ -98,6 +99,7 @@ function SearchBar() {
                 aria-label="Single select"
                 styles={customStyles}
                 formatOptionLabel={formatOptionLabel}
+                // autosize={true}
             />
             {error &&
                 <p>You have exceeded the search limit of two searches per minute</p>
@@ -116,17 +118,17 @@ function SearchBar() {
 
 export default SearchBar;
 
-
 const customStyles = {
-    control: (provided, state) => ({
+        control: (provided, state) => ({
         ...provided,
         background: '#fff',
         borderColor: '#9e9e9e',
-        // maxWidth: '200px',
         minHeight: '30px',
         height: '30px',
         boxShadow: state.isFocused ? null : null,
-        // whiteSpace: 'nowrap',
+        whiteSpace: 'nowrap',
+        //Autosize width of screenbar
+        width: useScreenSize().width/700 * 200
     }),
 
     valueContainer: (provided, state) => ({
