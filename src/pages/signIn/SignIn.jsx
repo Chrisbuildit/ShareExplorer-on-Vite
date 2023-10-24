@@ -31,7 +31,7 @@ async function handleLogin(e) {
 
 return (
     <div className="Mountains">
-        <p className="NoAccount">Do you not have an account? <Link to="/SignUp">Register</Link> first.</p>
+        <h2 className="NoAccount">Do you not have an account? <Link to="/SignUp">Register</Link> first.</h2>
         <main className="SignUpIn">
             <form onSubmit={ handleLogin }>
                 <InputField label="Username:" type="text" value={ username } setState={setUsername}/>

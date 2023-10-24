@@ -38,7 +38,7 @@ function Nav() {
                             <SearchBar className="t"/>
                         </li>
                     </ul>            
-                    <ul className={ mobileMenu ? 'menu' : 'mobile-menu'}>
+                    <ul className={ mobileMenu ? 'menu menu-extended' : 'mobile-menu'}>
                         <li>
                             <NavLink className={ ( { isActive } ) => isActive ? "link--active" : "link--default" }
                                      to="/Profile">Profile</NavLink>                  

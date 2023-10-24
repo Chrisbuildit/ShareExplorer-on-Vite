@@ -10,6 +10,8 @@
     top: 0;
     left: 0;
     background-color: rgb(22, 24, 6);
+    /* Prevent screen text from appearing on navbar */
+    z-index: 100;
 }
 
 .navbar nav {
@@ -19,7 +21,7 @@
     flex-basis: 99%;
     position: relative;
     justify-content: space-between;
-    padding-inline: 2em;
+    padding-right: 2em;
     left: 0;
     width: 100%;
     /* width: fit-content; No effect*/
@@ -29,17 +31,19 @@
 
 /*Not defined as it has no effect*/
 /* .searchbar {
+    
 } */
 
-.pre-menu {
-    padding-right: 1em;
-}
+/* .pre-menu {
+    
+} */
 
 .menu {
     display: flex;
     flex-direction: row;
-    gap: 1em;
-    padding-left: 1em;
+    flex: 0 0 350px;
+    justify-content: space-between;
+    /* padding-right: 0.75em; */
 }
 
 .navbar li {
@@ -72,6 +76,20 @@
 .toggle-menu,
 .mobile-homepage {
     display: none;
+}
+
+@media screen and (min-width: 768px) and (max-width: 850px) {
+    .menu {
+        display: none;
+    }
+
+    .menu-extended {
+        display: flex;
+        flex-direction: row;
+        flex: 0 0 310px;
+        justify-content: space-between;
+        padding-right: 0.75em;
+    }
 }
 
 @media screen and (max-width: 767px) {

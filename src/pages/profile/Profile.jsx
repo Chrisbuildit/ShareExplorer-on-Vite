@@ -45,7 +45,7 @@ function Profile() {
                     </>
                     :
                         <>
-                        <h3>Welcome {user.username}!</h3>
+                        <h2>Welcome {user.username}!</h2>
                         <p>You have no recorded data.</p>
                         </>}
                 </div>

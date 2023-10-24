@@ -3,7 +3,7 @@
     flex-direction: column;
     position: relative;
     top: 60px;
-    margin-left: 700px;
+    margin-left: 50vw;
 }
 
 .Profile-inner {
@@ -12,7 +12,7 @@
     position: relative;
 }
 
-.Profile-inner h3 {
+.Profile-inner h2 {
     font-size: 1em;
 }
 
@@ -25,6 +25,20 @@
 .ProfileList li {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    width: 310px;
+    justify-content: flex-start;
+    /* width: 350px; */
+    gap: 10px;
+}
+
+@media screen and (max-width: 767px) {
+    .Profile-outer {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        top: 60px;
+        align-items: center;
+        margin-left: auto;
+    }
+    
+
 }

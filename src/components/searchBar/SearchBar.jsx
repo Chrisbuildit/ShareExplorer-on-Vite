@@ -128,7 +128,7 @@ const customStyles = {
         boxShadow: state.isFocused ? null : null,
         whiteSpace: 'nowrap',
         //Autosize width of screenbar
-        width: useScreenSize().width/700 * 200
+        width: useScreenSize().width/700 * 160
     }),
 
     valueContainer: (provided, state) => ({
