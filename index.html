@@ -27,14 +27,7 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <script type="module" src="http://localhost:5173/@vite/client"></script>
-    <script type="module">
-        import RefreshRuntime from 'http://localhost:5173/@react-refresh'
-        RefreshRuntime.injectIntoGlobalHook(window)
-        window.$RefreshReg$ = () => {}
-        window.$RefreshSig$ = () => (type) => type
-        window.__vite_plugin_react_preamble_installed__ = true
-      </script>
+  
     <title>Share Explorer</title>
   </head>
   <body>
@@ -51,5 +44,13 @@
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
     <script type="module" src="/src/index.jsx"></script>
+    <script type="module" src="http://localhost:5173/@vite/client"></script>
+    <script type="module">
+        import RefreshRuntime from 'http://localhost:5173/@react-refresh'
+        RefreshRuntime.injectIntoGlobalHook(window)
+        window.$RefreshReg$ = () => {}
+        window.$RefreshSig$ = () => (type) => type
+        window.__vite_plugin_react_preamble_installed__ = true
+      </script>
   </body>
 </html>
