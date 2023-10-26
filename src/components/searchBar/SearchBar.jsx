@@ -129,7 +129,7 @@ const customStyles = {
         whiteSpace: 'nowrap',
         //Autosize width of screenbar
         width: useScreenSize().width/700 * 180,
-        minWidth: 150
+        minWidth: 100
     }),
 
     valueContainer: (provided, state) => ({
