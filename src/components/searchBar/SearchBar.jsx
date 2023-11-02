@@ -30,8 +30,8 @@ const fetchData = async (query) => {
         })
         // Excludes OTC-shares from list
         const filteredArray = list.filter((element) =>
-            !OtcStocks.some((otc) => otc.symbol === element.symbol)
-        )
+            !OtcStocks.some((otc) => otc.symbol === element.symbol))
+            
         return filteredArray.map((share) => {
             return {label: share.symbol, value: share.name};
         });
@@ -93,8 +93,8 @@ function SearchBar() {
                 noOptionsMessage={() => null}
                 // invoked whenever an option is selected.
                 onChange={handleOnSelect}
-                onMenuOpen={handleOnChange}
                 // specify functions that will be called when the dropdown menu opens
+                onMenuOpen={handleOnChange}
                 value={selection}
                 aria-label="Single select"
                 styles={customStyles}
@@ -129,7 +129,7 @@ const customStyles = {
         whiteSpace: 'nowrap',
         //Autosize width of screenbar
         width: useScreenSize().width/700 * 180,
-        minWidth: 100
+        minWidth: 30
     }),
 
     valueContainer: (provided, state) => ({
