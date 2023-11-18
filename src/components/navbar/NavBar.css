@@ -104,8 +104,8 @@
         background-color: transparent;
         border: none;
         cursor: pointer;
-        padding-left: calc(100vw/7);
-        padding-right: 0;
+        /* padding-left: 20vw; */
+        /* padding-right: -10vw; */
     }
 
     .mobile-homepage {
@@ -114,7 +114,9 @@
         background-color: transparent;
         border: none;
         cursor: pointer;
-        padding-right: calc(100vw/10);
+        padding-right: 10vw;
+        /* margin-right: -30px;
+        margin-left: -10px; */
     }
 
     .mobile-menu {

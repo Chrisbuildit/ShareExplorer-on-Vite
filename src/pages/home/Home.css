@@ -1,17 +1,23 @@
 .Home {
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    /* align-items: center; */
-    margin-top: 30px;
-    top: 30px;
+    /* display: flex;
+    flex-direction: column;*/
+    /* position: relative; */
+    align-items: center; 
+    padding-top: 60px;
+    line-height: 1.5 !important;
     text-align: center;
     color: black;
     font-weight: bold;
-    flex-wrap: wrap;
     padding-inline: 3em;
+    /* text-wrap: balance; */
+    /* margin: 50px auto; */
+    /* flex-wrap: wrap; */
+    /* margin-inline: auto; */
+    /* width: fit-content; */
+    /* height: fit-content block; */
+    /* height: 100vw; */
     /* width: 100%; */
-    /* white-space: normal; */
+    /* white-space: nowrap; */
     /* word-wrap: break-word; */
     /* overflow: auto; */
     /* justify-content: center; */
@@ -24,13 +30,19 @@
     font-size: 1em;
 }
 
-p {
+.lineHeight {
+    line-height: 1.2 !important;
+}
+
+.p {
+    /* display: inline-block; */
+    /* line-height: 1.5 !important; */
     /* display: flex; */
     /* flex-direction: column; */
-    /* white-space: normal; */
-    overflow-wrap: break-word;
+    /* overflow-wrap: break-word; */
+    /* height: max-content;
+    line-break: anywhere; */
     /* min-height: 600px; */
-    /* height: max-content; */
     /* flex-wrap: wrap; */
     /* text-align: center; */
     /* word-wrap: break-word; */

@@ -27,7 +27,7 @@ function Nav() {
         <header>
             <div className="navbar">
                 <nav>
-                    <ul className='pre-menu'>
+                    <ul>
                         <Link className="homepage" to="/">Share Explorer</Link>
                         <Link className="mobile-homepage" to="/">
                             <span className="material-symbols-outlined">House</span>
