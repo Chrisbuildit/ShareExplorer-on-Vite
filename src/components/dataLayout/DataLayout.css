@@ -12,28 +12,29 @@
     padding-inline: 33px;
     padding-top: 5px;
     padding-left: 40px;
+    /* border: 1px solid black; */
 }
 
 .SaveOption {
     color: blue;
-    margin-left: 60px;
+    margin-left: 40px;
+    line-height: 1.2 !important;
+    float: left;
 }
 
 
 h2  {
-    line-height: 0;
+    /* line-height: 0; */
     font-size: 1.2em;
 }
 
 h3 {
-    font-size: 0.85em;
-    line-height: 0;
+    font-size: 1em;
+    /* line-height: 0; */
 }
 
-
-p, label {
-    font-size: 0.75em;
-    line-height: 0;
+label {
+    font-size: 0.95em;
     font-family: "Roboto", monospace;
 }
 
@@ -43,7 +44,8 @@ span  {
     justify-content: space-between;
     position: relative;
     width: fit-content;
-    line-height: 0;
+    font-size: 0.95em;
+    font-family: "Roboto", monospace;
 }
 
 section {
@@ -51,4 +53,17 @@ section {
     flex-direction: column;
     justify-content: space-between;
     padding-right: 15px;
+}
+
+@media screen and (max-width: 767px) {
+ 
+.Mobile {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    position: relative;
+    /* width: fit-content; */
+    /* border: 1px solid black; */
+    }
+    
 }

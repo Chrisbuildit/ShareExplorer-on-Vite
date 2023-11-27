@@ -6,7 +6,7 @@
     padding-top: 60px;
     line-height: 1.5 !important;
     text-align: center;
-    color: black;
+    color: hsl(54, 69%, 76%);
     font-weight: bold;
     padding-inline: 3em;
     /* text-wrap: balance; */
@@ -28,10 +28,6 @@
 
 .Home h3 {
     font-size: 1em;
-}
-
-.lineHeight {
-    line-height: 1.2 !important;
 }
 
 .p {

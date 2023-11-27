@@ -13,31 +13,34 @@ code {
 }
 
 .Sunny-mountain {
-  height: 100vh;
+  min-height: 100vh;
   background-size: cover;
   background-image: url('./assets/Sunny-mountain.jpeg');
 }
 
 .Glacier {
-  height: 100vh;
+  min-height: 100vh;
   background-size: cover;
   background-image: url('./assets/Glacier.jpg');
+  /* background-attachment: fixed; */
+  /* background-position: center; */
+  /* background-repeat: no-repeat; */
 }
 
 .mountain-top {
-  height: 100vh;
+  min-height: 100vh;
   background-size: cover;
   background-image: url('./assets/mountain-top.jpg');
 }
 
 .Mountains {
-  height: 100vh;
+  min-height: 100vh;
   background-image: url('assets/Mountains.jpg');
   background-size: cover;
 }
 
 .carpithians {
-  height: 100vh;
+  min-height: 100vh;
   background-image: url('assets/carpithians.jpg');
   background-size: cover;
   display: flex;
@@ -96,3 +99,6 @@ button {
   position: relative;
 }
 
+.lineHeight {
+  line-height: 1.2 !important;
+}

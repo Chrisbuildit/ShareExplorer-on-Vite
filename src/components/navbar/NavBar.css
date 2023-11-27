@@ -11,7 +11,7 @@
     left: 0;
     background-color: rgb(22, 24, 6);
     /* Prevent screen text from appearing on navbar */
-    z-index: 100;
+    z-index: 100;   
 }
 
 .navbar nav {
@@ -104,8 +104,8 @@
         background-color: transparent;
         border: none;
         cursor: pointer;
-        /* padding-left: 20vw; */
-        /* padding-right: -10vw; */
+        padding-left: 10vw;
+        margin-right: -5vw;
     }
 
     .mobile-homepage {
@@ -115,8 +115,8 @@
         border: none;
         cursor: pointer;
         padding-right: 10vw;
-        /* margin-right: -30px;
-        margin-left: -10px; */
+        margin-right: -30px;
+        margin-left: -10px;
     }
 
     .mobile-menu {

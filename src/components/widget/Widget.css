@@ -4,3 +4,15 @@
     justify-content: flex-start;
     gap: 3em;
 }
+
+
+@media screen and (max-width: 767px) {
+    .widgets {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        /* align-items: flex-start; */
+        gap: 1em;
+        padding-left: 40px;
+    }
+}

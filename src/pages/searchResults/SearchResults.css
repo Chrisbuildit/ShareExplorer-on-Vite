@@ -21,3 +21,14 @@ h2  {
     font-size: 1.2em;
     padding-left: 40px;
 }
+
+@media screen and (max-width: 767px) {
+    .SearchResults {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: flex-end;
+        margin-top: 55px;
+        position: relative;
+    }
+
+}

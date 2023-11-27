@@ -63,7 +63,7 @@ function SearchResults() {
 
     return (
         <div className='carpithians'>
-            <div className='SearchResults'>
+            <div className='SearchResults SearchResultsMobile'>
                 {companyOverview.Name ?
                     <>
                         <Widget className="widgets" companyId={companyId}/>

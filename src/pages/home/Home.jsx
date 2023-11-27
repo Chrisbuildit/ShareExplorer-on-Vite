@@ -8,7 +8,7 @@ function Home() {
         <div className='Glacier'>
             <section className="Home">
                 <h3>Welcome on this website</h3>
-                <p className="lineHeight">Here you can find the most important data for company shares while enjoying beautiful mountain scenery.</p>
+                <p >Here you can find the most important data for company shares while enjoying beautiful mountain scenery.</p>
                 <p className="lineHeight">Please note that you can only perform - approximately 2 searches per minute - for now.</p>
                 <p className="lineHeight">We are working on expanding this.</p>                
             </section>
