@@ -29,6 +29,7 @@ h2  {
         justify-content: flex-end;
         margin-top: 55px;
         position: relative;
+        width: 100vw;
     }
 
 }

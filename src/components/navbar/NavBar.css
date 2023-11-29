@@ -21,7 +21,7 @@
     flex-basis: 99%;
     position: relative;
     justify-content: space-between;
-    padding-right: 2em;
+    padding-right: 1.5em;
     left: 0;
     width: 100%;
     /* width: fit-content; No effect*/
@@ -30,9 +30,11 @@
 }
 
 /*Not defined as it has no effect*/
-/* .searchbar {
-    
-} */
+.searchbar {
+    padding-right: 5vw;
+    padding-left: 5vw;
+    margin: 0;
+    }
 
 /* .pre-menu {
     
@@ -104,8 +106,9 @@
         background-color: transparent;
         border: none;
         cursor: pointer;
-        padding-left: 10vw;
-        margin-right: -5vw;
+        margin-left: 0;
+        padding-left: 0;
+        /* margin-right: -5vw; */
     }
 
     .mobile-homepage {
@@ -114,9 +117,9 @@
         background-color: transparent;
         border: none;
         cursor: pointer;
-        padding-right: 10vw;
-        margin-right: -30px;
-        margin-left: -10px;
+        padding-right: 0;
+        margin-right: 0;
+        /* margin-left: -10px; */
     }
 
     .mobile-menu {
