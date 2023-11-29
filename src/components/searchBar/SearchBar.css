@@ -5,7 +5,8 @@
     position: relative;
     height: 30px;
     background-color: transparent;
-}
+    gap: 0.5em;
+    }
 
 .searchbar Select {
     font-family: 'Core Sans G', Arial, sans-serif;

@@ -2,8 +2,10 @@
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
-    margin-top: 55px;
+    margin-top: 50px;
+    padding-top: 10px;
     position: relative;
+    flex-basis: 99vw;
 }
 
 .SearchError {
@@ -24,12 +26,8 @@ h2  {
 
 @media screen and (max-width: 767px) {
     .SearchResults {
-        display: flex;
         flex-direction: column-reverse;
         justify-content: flex-end;
-        margin-top: 55px;
-        position: relative;
-        width: 100vw;
     }
 
 }

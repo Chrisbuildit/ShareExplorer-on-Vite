@@ -43,7 +43,6 @@ code {
   min-height: 100vh;
   background-image: url('assets/carpithians.jpg');
   background-size: cover;
-  display: flex;
 }
 
 button {
@@ -89,14 +88,11 @@ button {
   height: 1.7em;
 }
 
-.CheckBox label {
-  top: 10px;
-  position: relative;
-}
-
-.CheckBox input {
-  left: -40px;
-  position: relative;
+.CheckBox {
+    display: flex;
+    flex-direction: row;
+    gap: 37px;
+    position: relative;
 }
 
 .lineHeight {

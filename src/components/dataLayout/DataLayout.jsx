@@ -18,12 +18,12 @@ function DataLayout({companyOverview, error, companyId, isAuth}) {
                         <p>&nbsp;</p>
                         <p>Please try again.</p>
                     </>
-                    }
+                    } 
                 </section>
                 <div>
                     {companyOverview &&
                     <span className="Mobile">
-                        <section>
+                        <section className="Section">
                             <h3><u>General:</u></h3>
                             <span><b>Name</b>: {companyOverview.Name}</span>
                             <span><b>Symbol</b>: {companyOverview.Symbol}</span>
@@ -40,7 +40,7 @@ function DataLayout({companyOverview, error, companyId, isAuth}) {
                             <span><b>Price to book</b>: {companyOverview.PriceToBookRatio}</span>
                             <span><b>Price to sales</b>: {companyOverview.PriceToSalesRatioTTM}</span>
                         </section>
-                        <section>
+                        <section className="Section">
                             <h3>&nbsp;</h3>
                             <span><b>Profit Margin</b>: {companyOverview.ProfitMargin}</span>
                             <span><b>Operating Margin</b>: {companyOverview.OperatingMarginTTM}</span>
