@@ -28,6 +28,7 @@ h2  {
     .SearchResults {
         flex-direction: column-reverse;
         justify-content: flex-end;
+        flex-basis: 100vw;
     }
 
 }

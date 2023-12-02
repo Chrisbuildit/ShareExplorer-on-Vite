@@ -43,8 +43,10 @@
 .menu {
     display: flex;
     flex-direction: row;
-    flex: 0 0 350px;
+    flex: 0 0 300px;
     justify-content: space-between;
+    margin-left: 0;
+    padding-left: 0;
     /* padding-right: 0.75em; */
 }
 
@@ -61,6 +63,8 @@
 .homepage {
     text-decoration: none;
     white-space: nowrap;
+    margin-right: 0;
+    padding-right: 0;
 }
 
 .link--default {
