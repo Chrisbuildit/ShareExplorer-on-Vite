@@ -22,7 +22,7 @@ function DataLayout({companyOverview, error, companyId, isAuth}) {
                 </section>
                 <div>
                     {companyOverview &&
-                    <span className="Mobile">
+                    <span className="Mobile1">
                         <section className="Section">
                             <h3><u>General:</u></h3>
                             <span><b>Name</b>: {companyOverview.Name}</span>
@@ -41,7 +41,7 @@ function DataLayout({companyOverview, error, companyId, isAuth}) {
                             <span><b>Price to sales</b>: {companyOverview.PriceToSalesRatioTTM}</span>
                         </section>
                         <section className="Section">
-                            <h3>&nbsp;</h3>
+                            <h3 className="Mobile2">&nbsp;</h3>
                             <span><b>Profit Margin</b>: {companyOverview.ProfitMargin}</span>
                             <span><b>Operating Margin</b>: {companyOverview.OperatingMarginTTM}</span>
                             <span><b>EV to EBITDA</b>: {companyOverview.EVToEBITDA}</span>

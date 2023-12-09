@@ -6,7 +6,8 @@ import '../searchResults/SearchResults.css'
 function SearchPage() {
 
     return (
-        <img src={carpithians} alt="none" style={{width: '100%', height: '100%'}}/>
+        <div className='carpithians'>
+            </div>
             )
 
 }

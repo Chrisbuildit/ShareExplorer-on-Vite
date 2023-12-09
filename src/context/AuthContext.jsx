@@ -48,22 +48,22 @@ function AuthContextProvider( { children } ) {
         setUserData(userData, "/Profile")
     }
 
-        function setUserData( userData, redirect ) {
-                setAuth( {
-                    ...auth,
-                    isAuth: true,
-                    user: {
-                        email: userData.email,
-                        id: userData.id,
-                        username: userData.username,
-                        role:userData.role
-                    },
-                    status: "done"
-                } )
-                if ( redirect ) {
-                    navigate( redirect )
-                }
+    function setUserData( userData, redirect ) {
+            setAuth( {
+                ...auth,
+                isAuth: true,
+                user: {
+                    email: userData.email,
+                    id: userData.id,
+                    username: userData.username,
+                    role:userData.role
+                },
+                status: "done"
+            } )
+            if ( redirect ) {
+                navigate( redirect )
             }
+        }
 
 
     async function fetchUserData( jwt, redirect ) {

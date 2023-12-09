@@ -19,8 +19,8 @@ function Widget({companyId}) {
                 <TechnicalAnalysis
                 colorTheme="light"
                 symbol={companyId}
-                width="350"
-                height="375"
+                width="300"
+                height="370"
                 // isTransparent="true"
                 >
                 </TechnicalAnalysis>

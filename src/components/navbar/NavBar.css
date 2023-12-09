@@ -21,12 +21,10 @@
     flex-basis: 99%;
     position: relative;
     justify-content: space-between;
-    padding-right: 1.5em;
+    padding-right: 1.1em;    
     left: 0;
-    width: 100%;
-    /* width: fit-content; No effect*/
     align-items: center;
-    border: 1px solid black;
+    /* border: 1px solid rgb(231, 8, 8); */
     height: 50px;
 }
 
@@ -47,7 +45,7 @@
     justify-content: space-between;
     margin-left: 0;
     padding-left: 0;
-    /* padding-right: 0.75em; */
+    padding-right: 0.75em;
 }
 
 .navbar li {
@@ -139,6 +137,7 @@
         list-style-type: none;
     }
 
-    /* .material-symbols-outlined {
-            } */
+    .material-symbols-outlined {
+        font-size: 1em;
+    }
 }

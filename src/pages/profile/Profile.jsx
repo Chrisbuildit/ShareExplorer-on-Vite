@@ -3,6 +3,7 @@ import { AuthContext} from "../../context/AuthContext";
 import './Profile.css'
 import {Link} from "react-router-dom";
 import createDateString from "../../helpers/createDateString/CreateDateString";
+import { log } from 'console';
 
 function Profile() {
     const [lastSearch, setLastSearch] = useState([]);
@@ -15,6 +16,7 @@ function Profile() {
 
     useEffect(() => {
         if(user && lastSearch) {
+        console.log(lastSearch);
         const overview = lastSearch.reverse();
         setData(overview)
         const currentPost = overview.filter((post) => {
@@ -28,7 +30,7 @@ function Profile() {
             <div className="Profile-outer">
             {isAuth ?
                 <div className="Profile-inner">
-                    {lastSearch ?
+                    {lastSearch.length > 0 ?
                     <>
                         <h3>Welcome back {user.username}!</h3>
                         <p>Here you can find historical data on your last 20 searches :</p>

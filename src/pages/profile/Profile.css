@@ -40,5 +40,9 @@
         margin-left: auto;
     }
     
-
+    .Profile-outer {
+        text-align: center;
+        color: hsl(348, 82%, 50%);
+        padding-inline: 3em;
+    }
 }

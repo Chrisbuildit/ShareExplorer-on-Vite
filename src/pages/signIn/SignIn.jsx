@@ -35,7 +35,7 @@ return (
         <main className="SignUpIn">
             <form onSubmit={ handleLogin }>
                 <InputField label="Username:" type="text" value={ username } setState={setUsername}/>
-                <InputField label="Password" type={check ? "text" : "password"} value={ password } setState={setPassword}/>
+                <InputField label="Password:" type={check ? "text" : "password"} value={ password } setState={setPassword}/>
                 <section className="CheckBox">
                     <label><b>Show password</b></label>
                     <input type="checkbox" checked={ check } onChange={() => toggleCheck(!check)}/>

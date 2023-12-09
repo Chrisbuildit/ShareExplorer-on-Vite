@@ -43,7 +43,8 @@ code {
   min-height: 100vh;
   background-image: url('assets/carpithians.jpg');
   background-size: cover;
-}
+  background-position: center;
+} 
 
 button {
   border-radius: 2px;
@@ -80,12 +81,19 @@ button {
   align-items: center;
 }
 
+  @media screen and (max-width: 767px) {
+    .InputField {
+        width: 16em;
+    }
+}
+
 .InputField label {
   font-weight: bold;
 }
 
 .InputField input {
   height: 1.7em;
+
 }
 
 .CheckBox {

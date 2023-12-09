@@ -1,11 +1,13 @@
 * {
   box-sizing: border-box;
+  /* outline: 1px solid red; */
 }
 
 .App {
   text-align: center;
   position: relative;
   /* height: 100vh; */
+  /* max-width: 100vw; */
 }
 
 /*.outer-container {*/
