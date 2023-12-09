@@ -29,10 +29,7 @@ h2  {
 
 
 @media screen and (max-width: 767px) {
-    .SearchResults {
-        display: none;
-    }
-
+    
     .SearchResultsMobile {
         display: flex;
         flex-direction: column-reverse;
