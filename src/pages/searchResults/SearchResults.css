@@ -1,4 +1,4 @@
-.earchResults {
+.SearchResults {
     display: flex;
     flex-direction: row-reverse;
     justify-content: flex-end;
@@ -30,13 +30,13 @@ h2  {
 
 @media screen and (max-width: 767px) {
     
-    .earchResultsMobile {
+    .SearchResultsMobile {
         display: flex;
         flex-direction: column-reverse;
         justify-content: flex-end;
-        margin-top: 50px;
+        /* margin-top: 50px;
         padding-top: 10px;
-        position: relative;
+        position: relative; */
         /* border: 5px solid red; */
         /* width: fit-content; */
         padding-bottom: 20px;
