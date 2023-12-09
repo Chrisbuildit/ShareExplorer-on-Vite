@@ -1,4 +1,4 @@
-.SearchResults {
+.earchResults {
     display: flex;
     flex-direction: row-reverse;
     justify-content: flex-end;
@@ -30,7 +30,7 @@ h2  {
 
 @media screen and (max-width: 767px) {
     
-    .SearchResultsMobile {
+    .earchResultsMobile {
         display: flex;
         flex-direction: column-reverse;
         justify-content: flex-end;
