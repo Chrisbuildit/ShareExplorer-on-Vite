@@ -62,7 +62,7 @@ function SearchResults() {
     }, [companyOverview])
 
     return (
-        <div className='carpithians'>
+        <div style={{height: "100%"}} className='carpithians'>
             <div className='SearchResults SearchResultsMobile'>
                 {companyOverview.Name ?
                     <>
