@@ -46,7 +46,7 @@ code {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size:auto 100%;
+  /* background-size:auto 100%; */
   /* float: left; */
   /* background-position: center; */
 } 
