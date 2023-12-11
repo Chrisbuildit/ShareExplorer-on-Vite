@@ -42,11 +42,11 @@ code {
 .carpithians {
   /* min-height: 100vh; */
   background-image: url('assets/carpithians.jpg');
-  background-size: cover;
+  /* background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
-  -o-background-size: cover;
-  /* background-size:auto 100%; */
+  -o-background-size: cover; */
+  background-size:auto 100%;
   /* float: left; */
   /* background-position: center; */
 } 
