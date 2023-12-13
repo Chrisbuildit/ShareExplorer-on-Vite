@@ -49,6 +49,7 @@ code {
   background-size: auto 100%;
   /* float: left; */
   /* background-position: center; */
+  /* clear: both; */
 }
 
 button {
