@@ -48,7 +48,7 @@ code {
   -o-background-size: cover; */
   background-size: auto 100%;
   /* float: left; */
-  /* background-position: center; */
+  background-position: center;
   /* clear: both; */
 }
 
