@@ -3,13 +3,16 @@
     flex-direction: column;
     position: relative;
     top: 60px;
-    margin-left: 50vw;
+    margin-left: 54vw;
 }
 
 .Profile-inner {
     display: flex;
     flex-direction: column;
     position: relative;
+    line-height: 0;
+    gap: 0.9em;
+    font-size: 0.9em;
 }
 
 .Profile-inner h2 {
@@ -20,7 +23,7 @@
     list-style: none;
     margin-left: -40px;
     margin-top: 0;
-}
+    }
 
 .ProfileList li {
     display: flex;
@@ -32,15 +35,12 @@
 
 @media screen and (max-width: 767px) {
     .Profile-outer {
-        display: flex;
-        flex-direction: column;
-        position: relative;
         top: 60px;
         align-items: center;
         margin-left: auto;
     }
     
-    .Profile-outer {
+    .Profile-inner {
         text-align: center;
         color: hsl(348, 82%, 50%);
         padding-inline: 3em;

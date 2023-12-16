@@ -40,6 +40,7 @@ code {
 }
 
 .carpithians {
+  /* Nodig voor laptop view maar niet voor mobile*/
   min-height: 100vh;
   background-image: url('assets/carpithians.jpg');
   background-size: cover;
@@ -50,6 +51,12 @@ code {
   /* float: left; */
   /* background-position: center; */
   /* clear: both; */
+}
+
+.Switzerland {
+  min-height: 100vh;
+  background-image: url('assets/Switzerland.jpg');
+  background-size: cover;
 }
 
 button {
