@@ -27,7 +27,7 @@ function CompanyDetails() {
     console.log(date);
 
     return (
-        <div className='carpithians'>
+        <div className='Switzerland'>
             <div className='company-details'>
                 <p className='heading'>The results are from {currentPost && createDateString(currentPost.Date)}</p>
                 <DataLayout
