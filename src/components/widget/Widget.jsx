@@ -21,6 +21,7 @@ function Widget({companyId}) {
                 symbol={companyId}
                 width="300"
                 height="370"
+                              
                 // isTransparent="true"
                 >
                 </TechnicalAnalysis>

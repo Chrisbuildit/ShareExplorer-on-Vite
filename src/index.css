@@ -41,7 +41,7 @@ code {
 
 .carpithians {
   /* Nodig voor laptop view maar niet voor mobile*/
-  min-height: 100vh;
+  /* min-height: 100vh; */
   background-image: url('assets/carpithians.jpg');
   background-size: cover;
   /* background-size: auto 100%; */

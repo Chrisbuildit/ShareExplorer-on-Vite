@@ -6,7 +6,9 @@
     /* height: 100vh; */
     padding-top: 10px;
     margin-top: 50px;
-    color: hsl(198, 82%, 50%);
+    color: hsl(240, 5%, 4%);
+    /* background-color: rgba(230, 229, 222, 0.75); */
+    /* width: min-content; */
 }
 
 .heading {
