@@ -30,7 +30,7 @@ function Nav() {
                     <ul>
                         <Link className="homepage" to="/">Share Explorer</Link>
                         <Link className="mobile-homepage" to="/">
-                            <span className="material-symbols-outlined">House</span>
+                            <div className="material-symbols-outlined">House</div>
                         </Link>
                     </ul>
                     <ul className="searchbar">
@@ -58,8 +58,8 @@ function Nav() {
                     <button className='toggle-menu' type='button' onClick={showMobileMenu}>
                         {
                             mobileMenu
-                                ? <span className='material-symbols-outlined'>menu</span>
-                                : <span className='material-symbols-outlined'>close</span>
+                                ? <div className='material-symbols-outlined'>menu</div>
+                                : <div className='material-symbols-outlined'>close</div>
                         }
                     </button>
                 </nav>
