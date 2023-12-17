@@ -9,7 +9,7 @@
     flex-basis: 99vw;
     /* max-width: 100%; */
     /* Necessary for backfound image to display correctly */
-    /* min-height: 100vh; */
+    min-height: 100vh;
 }
 
 .SearchError {
@@ -31,9 +31,9 @@ h2  {
 
 
 @media screen and (max-width: 767px) {
-    /* .SearchResults {
+    .SearchResults {
         display: none;
-    } */
+    }
     
     .SearchResultsMobile {
         display: flex;
