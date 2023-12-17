@@ -30,7 +30,7 @@ function Profile() {
             <div className="Profile-outer">
             {isAuth ?
                 <div className="Profile-inner">
-                    {lastSearch.length > 0 ?
+                    {lastSearch ?
                     <>
                         <h3>Welcome back {user.username}!</h3>
                         <p>Here you can find historical data on your last 20 searches :</p>
@@ -40,7 +40,7 @@ function Profile() {
                                 <Link to={`/company-details/${data.Date}`}>
                                    <p>{data.Name}</p>
                                 </Link>
-                                <p>{createDateString(data.Date)}</p>
+                                <p className='Date'>{createDateString(data.Date)}</p>
                             </li>
                             })}
                         </ul>

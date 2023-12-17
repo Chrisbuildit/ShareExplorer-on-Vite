@@ -8,6 +8,9 @@
     /* outline: 1px solid red; */
     flex-basis: 99vw;
     /* max-width: 100%; */
+    
+    /* Necessary for backfound image to display correctly */
+    min-height: 100vh;
 }
 
 .SearchError {

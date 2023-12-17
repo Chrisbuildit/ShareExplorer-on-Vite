@@ -23,14 +23,16 @@
     list-style: none;
     margin-left: -40px;
     margin-top: 0;
+    /* background-color: rgba(255, 255, 255, 0.3); */
     }
 
 .ProfileList li {
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: space-between;
     /* width: 350px; */
     gap: 10px;
+    /* font-size: 0.8em; */
 }
 
 @media screen and (max-width: 767px) {
@@ -38,11 +40,20 @@
         top: 60px;
         align-items: center;
         margin-left: auto;
+        background-color: rgba(255, 255, 255, 0.3);
     }
     
     .Profile-inner {
         text-align: center;
-        color: hsl(348, 82%, 50%);
+        /* color: hsl(348, 82%, 50%); */
         padding-inline: 3em;
+        font-size: 0.6em;
+        width: max-content;
+        background-color: rgba(255, 255, 255, 0.3);
+    }
+
+    /* Not working */
+    .Date {
+        margin-left: auto;
     }
 }
