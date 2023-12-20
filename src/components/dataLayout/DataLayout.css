@@ -3,6 +3,7 @@
     flex-direction: column-reverse;
     justify-content: flex-end;
     margin-top: -5px;
+    padding-left: 40px;
     /* width: 100vw; */
     /* border: 1px solid rgb(235, 11, 11); */
 }
@@ -13,13 +14,11 @@
     justify-content: space-between;
     /* padding-inline: 33px; */
     padding-top: 5px;
-    padding-left: 40px;
     /* border: 1px solid rgb(235, 11, 11); */
 }
 
 .SaveOption {
     color: blue;
-    margin-left: 40px;
     line-height: 1.2 !important;
     float: left;
 }
@@ -61,6 +60,10 @@ span  {
 }
 
 @media screen and (max-width: 767px) {
+
+.outer-container {
+    padding-left: 25px;
+}
  
 .Mobile1 {
     display: flex;
