@@ -3,7 +3,8 @@ import { AuthContext} from "../../context/AuthContext";
 import axios from "axios";
 import InputField from "../../components/inputfield/InputField";
 import {Link} from "react-router-dom";
-import './SignIn.css'
+import './SignIn.css';
+import "../../components/inputfield/InputField.css";
 
 function SignIn() {
 const [ username, setUsername ] = useState( "" )
