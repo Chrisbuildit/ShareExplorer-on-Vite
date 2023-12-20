@@ -2,7 +2,7 @@ import React, { useContext, useState } from 'react';
 import axios from "axios";
 import { AuthContext} from "../../context/AuthContext";
 import InputField from "../../components/inputfield/InputField";
-
+import "../../components/inputfield/InputField.css";
 
 function SignUp() {
     const [ email, setEmail ] = useState( "" )

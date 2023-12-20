@@ -28,7 +28,6 @@ code {
 }
 
 .mountain-top {
-  min-height: 100vh;
   background-size: cover;
   background-image: url('./assets/mountain-top.jpg');
 }
@@ -71,6 +70,15 @@ button {
   flex-direction: row;
   justify-content: space-between;
   margin-top: 50px;
+  min-height: 100vh;
+  /* background-size: auto; */
+}
+
+@media screen and (max-width: 767px) {
+  .SignUpIn {
+    min-height: normal;
+    /* background-size: auto 100%; */
+  }
 }
 
 .SignUpIn form {
@@ -80,30 +88,6 @@ button {
   gap: 12px;
   justify-content: space-between;
   height: fit-content;
-}
-
-.InputField {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  position: relative;
-  width: 20em;
-  align-items: center;
-}
-
-  @media screen and (max-width: 767px) {
-    .InputField {
-        width: 16em;
-    }
-}
-
-.InputField label {
-  font-weight: bold;
-}
-
-.InputField input {
-  height: 1.7em;
-
 }
 
 .CheckBox {

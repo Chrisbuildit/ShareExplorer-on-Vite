@@ -1,0 +1,23 @@
+.InputField {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    width: 20em;
+    align-items: center;
+  }
+  
+  .InputField label {
+    font-weight: bold;
+  }
+  
+  .InputField input {
+    height: 1.7em;
+  
+  }
+
+  @media screen and (max-width: 767px) {
+    .InputField {
+        width: 16em;
+    }
+}
