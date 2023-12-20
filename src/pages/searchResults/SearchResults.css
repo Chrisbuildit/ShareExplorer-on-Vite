@@ -5,9 +5,10 @@
     margin-top: 50px;
     padding-top: 10px;
     position: relative;
-    /* outline: 1px solid red; */
     flex-basis: 99vw;
     /* max-width: 100%; */
+    /* outline: 1px solid red; */
+
     /* Necessary for backfound image to display correctly */
     min-height: 100vh;
 }
@@ -45,13 +46,19 @@ h2  {
         /* border: 5px solid red; */
         /* width: fit-content; */
         padding-bottom: 20px;
-        padding:15px;
+        padding: 15px;
         /* height: 100vh; */
+        background-size: auto 100%;
     }
 
     .SearchError {
         font-size: 0.9em;
+        padding-left: 25px;
         /* line-height: 0; */
+    }
+
+    h2 {
+        padding-left: 25px;
     }
 
 }

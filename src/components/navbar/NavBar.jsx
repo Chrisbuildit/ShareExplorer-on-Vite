@@ -16,12 +16,18 @@ function Nav() {
         toggleMobileMenu( prev => !prev)    
     }
 
-    //Closes togglemenu when user forgot to close it and screensize changes
+    // Closes togglemenu when user forgot to close it and screensize changes
     useEffect(() => {
         if (!mobileMenu) {toggleMobileMenu(isMediumToLargeDevice)}
     }, [isMediumToLargeDevice])
 
     const { logout } = useContext(AuthContext);
+
+    // Closes Toggle-menu when user click outside menu
+    function closeMenu() {
+        if(!mobileMenu) {showMobileMenu()};
+        console.log(mobileMenu);
+    }
 
         return (
         <header>
@@ -55,7 +61,7 @@ function Nav() {
                             <Link className="link--default" to="/" onClick={logout}>Sign Out</Link>
                         </li>
                     </ul>
-                    <button className='toggle-menu' type='button' onClick={showMobileMenu}>
+                    <button className='toggle-menu' type='button' onClick={showMobileMenu} onMouseLeave={closeMenu}>
                         {
                             mobileMenu
                                 ? <div className='material-symbols-outlined'>menu</div>
