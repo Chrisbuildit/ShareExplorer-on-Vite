@@ -4,7 +4,6 @@
     justify-content: flex-end;
     margin-top: -5px;
     padding-left: 40px;
-    /* width: 100vw; */
     /* border: 1px solid rgb(235, 11, 11); */
 }
 
@@ -12,6 +11,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    /* width: 100vw; */
     /* padding-inline: 33px; */
     padding-top: 5px;
     /* border: 1px solid rgb(235, 11, 11); */
@@ -34,18 +34,13 @@ h3 {
     /* line-height: 0; */
 }
 
-label {
-    font-size: 0.95em;
-    font-family: "Roboto", monospace;
-}
-
 span  {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     position: relative;
     width: fit-content;
-    font-size: 0.95em;
+    font-size: 1.2vw;
     font-family: "Roboto", monospace;
     background-color: rgba(255, 255, 255, 0.3);
 }
@@ -83,6 +78,10 @@ span  {
 
 .Mobile2 {
     font-size: 0;
+}
+
+span {
+    font-size: 1em;
 }
 
 }

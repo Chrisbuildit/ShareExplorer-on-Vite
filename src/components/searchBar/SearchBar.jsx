@@ -149,6 +149,11 @@ const customStyles = {
         ...provided,
         height: '30px',
     }),
+    menu: (base) => ({
+        ...base,
+        minWidth: "150px",
+        maxWidth: "74%"
+   }),
 };
 
 const formatOptionLabel = (value) => {

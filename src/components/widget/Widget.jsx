@@ -11,7 +11,7 @@ function Widget({companyId}) {
                         [companyId]
                     ]}
                     lineWidth="1"
-                    width="300"
+                    width="100%"
                     height="370"
                     widgetFontColor="black"
                     dateFormat="dd MMM 'yy"
@@ -19,9 +19,10 @@ function Widget({companyId}) {
                 <TechnicalAnalysis
                 colorTheme="light"
                 symbol={companyId}
-                width="300"
+                // Percentage and vw/vh does not work
+                width="100%"
                 height="370"
-                              
+                // autosize="true"      
                 // isTransparent="true"
                 >
                 </TechnicalAnalysis>
