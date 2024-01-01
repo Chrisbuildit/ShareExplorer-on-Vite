@@ -47,7 +47,7 @@ h2  {
         /* width: fit-content; */
         padding-bottom: 20px;
         padding: 15px;
-        min-height: 100%;
+        height: max-content;
         /* background-size: auto 100%; */
     }
 
