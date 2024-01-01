@@ -71,14 +71,8 @@ button {
   justify-content: space-between;
   margin-top: 50px;
   min-height: 100vh;
-  /* background-size: auto; */
-}
-
-@media screen and (max-width: 767px) {
-  .SignUpIn {
-    min-height: normal;
-    /* background-size: auto 100%; */
-  }
+  /* To nullify effect of mobile value */
+  background-size: auto;
 }
 
 .SignUpIn form {
@@ -105,4 +99,16 @@ button {
 label {
     font-size: 0.95em;
     font-family: "Roboto", monospace;
+}
+
+@media screen and (max-width: 767px) {
+  .SignUpIn {
+    background-size: auto 100%;
+    /* To nullify effect of min-height value set for laptop */
+    min-height: normal;
+  }
+
+  .CheckBox {
+    gap: 40px;
+  }
 }
