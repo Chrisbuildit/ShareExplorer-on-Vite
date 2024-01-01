@@ -40,6 +40,7 @@ code {
 
 .carpithians {
   background-image: url('assets/carpithians.jpg');
+  background-size: cover;
   /* -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover; */
@@ -109,5 +110,10 @@ label {
 
   .CheckBox {
     gap: 40px;
+  }
+
+  .carpithians {
+    background-image: url('assets/carpithians.jpg');
+    background-size: auto 100%;
   }
 }
