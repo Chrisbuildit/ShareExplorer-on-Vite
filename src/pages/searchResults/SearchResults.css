@@ -10,6 +10,7 @@
     /* outline: 1px solid red; */
 
     /* Necessary for backfound image to display correctly */
+    background-size: cover;
     min-height: 100vh;
 }
 
