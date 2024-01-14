@@ -40,6 +40,7 @@ code {
 }
 
 .carpithians {
+  min-height: 100vh;
   background-image: url('assets/carpithians.jpg');
   background-size: cover;
   /* -webkit-background-size: cover;
@@ -85,7 +86,7 @@ button {
 .CheckBox {
     display: flex;
     flex-direction: row;
-    gap: 47px;
+    gap: 15px;
     position: relative;
     font-size: 0.9em;
 }
@@ -99,26 +100,23 @@ label {
     font-family: "Roboto", monospace;
 }
 
+.Inputfields {
+  display: flex;
+  flex-direction: column;
+  width: max-content;
+  gap: 12px;
+}
+
 @media screen and (max-width: 767px) {
   .SignUpIn {
     background-size: auto 100%;
+        
     /* To nullify effect of min-height value set for laptop */
-    min-height: normal;
-  }
-
-  .CheckBox {
-    gap: 40px;
+    /* min-height: normal; */
   }
 
   .carpithians {
-    background-image: url('assets/carpithians.jpg');
     background-size: auto 100%;
   }
-
-  .Inputfields {
-    display: flex;
-    flex-direction: column;
-    width: max-content;
-    gap: 12px;
-  }
+  
 }

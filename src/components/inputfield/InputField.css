@@ -3,7 +3,8 @@
     flex-direction: row;
     justify-content: space-between;
     position: relative;
-    width: 20em;
+    width: 18.3em;
+    margin-left: auto;
     align-items: center;
   }
   
@@ -13,11 +14,12 @@
   
   .InputField input {
     height: 1.7em;
-  
   }
 
   @media screen and (max-width: 767px) {
     .InputField {
-        width: 16em;
+        width: max-content;
+        margin-left: auto;
+        gap: 10px;
     }
 }
