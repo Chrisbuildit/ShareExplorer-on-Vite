@@ -43,7 +43,8 @@ function SignUp() {
     }
 
     return (
-        <main className="SignUpIn mountain-top">
+        <div className='mountain-top'>
+        <main className="SignUpIn">
             <form onSubmit={ registerUser }>
                 <InputField label="Email:" type="email" value={ email } setState={setEmail}/>
                 <InputField label="Username:" type="text" value={ username } setState={setUsername}/>
@@ -57,6 +58,7 @@ function SignUp() {
                 <button type="submit">Sign Up</button>
             </form>
         </main>
+        </div>
     );
 }
 

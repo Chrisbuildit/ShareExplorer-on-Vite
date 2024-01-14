@@ -60,10 +60,6 @@ function SearchBar() {
         navigate(`/searchPage`)
     }
 
-    // function abort() {
-    //     setQuery("")
-    // }
-
     const { isLoading, error, data } = useQuery(
         query ? ['StockData', query] : ['StockData'],
         async () => await fetchData(query),
@@ -76,7 +72,7 @@ function SearchBar() {
 
     return (
         <>
-    <form className="searchbar" /*onMouseLeave={abort}*/>
+    <form className="searchbar">
         <section>
             <Select
                 options={data}
