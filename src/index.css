@@ -28,6 +28,7 @@ code {
 }
 
 .mountain-top {
+  min-height: 100vh;
   background-size: cover;
   background-image: url('./assets/mountain-top.jpg');
 }
