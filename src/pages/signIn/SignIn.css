@@ -1,7 +1,15 @@
 .NoAccount {
     top: 75px;
-    text-align: center;
+    /* margin: 50px; */
     position: relative;
     margin-top: 0;
+    margin-left: 10px;
     font-size: 0.85em;
+}
+
+
+@media screen and (max-width: 767px) {
+.NoAccount {
+    margin-left: 24px;
+}
 }

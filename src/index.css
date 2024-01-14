@@ -71,8 +71,6 @@ button {
   display: flex;
   flex-direction: row;
   margin-top: 50px;
-  /* To nullify effect of mobile value */
-  background-size: auto;
 }
 
 .SignUpIn form {
@@ -110,13 +108,13 @@ label {
 @media screen and (max-width: 767px) {
   .SignUpIn {
     background-size: auto 100%;
-        
-    /* To nullify effect of min-height value set for laptop */
-    /* min-height: normal; */
   }
 
   .carpithians {
     background-size: auto 100%;
   }
-  
+
+  .Sunny-mountain {
+    background-size: auto 100%;
+  }
 }

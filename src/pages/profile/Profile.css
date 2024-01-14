@@ -18,10 +18,12 @@
 }
 
 .ProfileList {
+    display: flex;
+    flex-direction: column;
     list-style: none;
     margin-left: -40px;
     margin-top: 0;
-    margin: 0;
+    line-height: 0.3;
     /* background-color: rgba(255, 255, 255, 0.3); */
     }
 
@@ -46,8 +48,8 @@
     .Profile-inner {
         text-align: center;
         /* color: hsl(348, 82%, 50%); */
-        padding-inline: 3em;
         font-size: 0.7em;
+        padding-inline: 1.5em;
         width: max-content;
         background-color: rgba(255, 255, 255, 0.3);
     }
