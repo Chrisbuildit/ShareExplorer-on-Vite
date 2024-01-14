@@ -46,9 +46,11 @@ function SignUp() {
         <div className='mountain-top'>
         <main className="SignUpIn">
             <form onSubmit={ registerUser }>
+                <section className='Inputfields'>
                 <InputField label="Email:" type="email" value={ email } setState={setEmail}/>
                 <InputField label="Username:" type="text" value={ username } setState={setUsername}/>
                 <InputField label="Password:" type={check ? "text" : "password"} value={ password } setState={setPassword}/>
+                </section>
                 <section className="CheckBox">
                     <label><b>Show password</b></label>
                     <input type="checkbox" checked={ check } onChange={() => toggleCheck(!check)}/>

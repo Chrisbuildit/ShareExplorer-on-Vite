@@ -69,9 +69,7 @@ button {
 .SignUpIn {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
   margin-top: 50px;
-  min-height: 100vh;
   /* To nullify effect of mobile value */
   background-size: auto;
 }
@@ -81,8 +79,7 @@ button {
   flex-direction: column;
   margin: 50px;
   gap: 12px;
-  justify-content: space-between;
-  height: fit-content;
+  /* width: max-content; */
 }
 
 .CheckBox {
@@ -116,5 +113,12 @@ label {
   .carpithians {
     background-image: url('assets/carpithians.jpg');
     background-size: auto 100%;
+  }
+
+  .Inputfields {
+    display: flex;
+    flex-direction: column;
+    width: max-content;
+    gap: 12px;
   }
 }
