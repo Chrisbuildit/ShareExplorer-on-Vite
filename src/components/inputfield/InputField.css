@@ -18,8 +18,7 @@
 
   @media screen and (max-width: 767px) {
     .InputField {
-        width: max-content;
-        margin-left: auto;
+        width: max-content;  
         gap: 10px;
     }
 }

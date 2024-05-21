@@ -13,7 +13,7 @@ function Nav() {
     const[ mobileMenu, toggleMobileMenu] = useState(true);
 
     function showMobileMenu() {
-        toggleMobileMenu( prev => !prev)    
+        toggleMobileMenu( prev => !prev )    
     }
 
     // Closes togglemenu when user forgot to close it and screensize changes
@@ -32,7 +32,7 @@ function Nav() {
         return (
         <header>
             <div className="navbar">
-                <nav>
+                <nav onMouseLeave={closeMenu}>
                     <ul>
                         <Link className="homepage" to="/">Share Explorer</Link>
                         <Link className="mobile-homepage" to="/">
@@ -61,7 +61,7 @@ function Nav() {
                             <Link className="link--default" to="/" onClick={logout}>Sign Out</Link>
                         </li>
                     </ul>
-                    <button className='toggle-menu' type='button' onClick={showMobileMenu} onMouseLeave={closeMenu}>
+                    <button className='toggle-menu' type='button' onClick={showMobileMenu} >
                         {
                             mobileMenu
                                 ? <div className='material-symbols-outlined'>menu</div>
