@@ -29,7 +29,7 @@ function DataLayout({companyOverview, error, companyId, isAuth}) {
                             <span><b>Symbol</b>: {companyOverview.Symbol}</span>
                             <span><b>Stock exchange</b>: {companyOverview.Exchange}</span>
                             <span><b>Fiscal Yearend</b>: {companyOverview.FiscalYearEnd}</span>
-                            <span><b>Industry</b>: {companyOverview.Industry}</span>
+                            {/* <span><b>Industry</b>: {companyOverview.Industry}</span> */}
                             <span><b>Sector</b>: {companyOverview.Sector}</span>
 
                             <h3><u>Ratios:</u></h3>

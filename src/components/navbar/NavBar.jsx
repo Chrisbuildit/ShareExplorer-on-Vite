@@ -49,6 +49,7 @@ function Nav() {
                             <NavLink className={ ( { isActive } ) => isActive ? "link--active" : "link--default" }
                                      to="/Profile">Profile</NavLink>                  
                         </li>
+                        
                         <li>
                             <NavLink className={ ( { isActive } ) => isActive ? "link--active" : "link--default" }
                                      to="/SignIn">Sign In</NavLink>
