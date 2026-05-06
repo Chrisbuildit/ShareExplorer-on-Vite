@@ -18,14 +18,14 @@ code {
   background-image: url('./assets/Sunny-mountain.jpeg');
 }
 
-.Glacier {
+/* .Glacier {
   min-height: 100vh;
   background-size: cover;
-  background-image: url('./assets/Glacier.jpg');
+  background-image: url('./assets/Glacier.jpg'); */
   /* background-attachment: fixed; */
   /* background-position: center; */
   /* background-repeat: no-repeat; */
-}
+/* } */
 
 .mountain-top {
   min-height: 100vh;

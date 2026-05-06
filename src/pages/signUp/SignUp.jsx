@@ -35,7 +35,7 @@ function SignUp() {
             // Ga eens kijken wat je allemaal terug krijgt en stuur die data naar de Context
             console.log(result);
             login( result.data, result.data.accessToken );
-
+            
         } catch ( e ) {
             console.error( e )
             toggleError(true);
@@ -55,8 +55,8 @@ function SignUp() {
                     <label><b>Show password</b></label>
                     <input type="checkbox" checked={ check } onChange={() => toggleCheck(!check)}/>
                 </section>
-                {/*<InputField label="Role:" type="text" value={ role } setState={setRole}/>*/}
                 {error && <p className="error">There is already an account for the email address. Go to the Sign-in page</p>}
+                {/* // Make the button a sign-in button if the user already has an account */}
                 <button type="submit">Sign Up</button>
             </form>
         </main>
